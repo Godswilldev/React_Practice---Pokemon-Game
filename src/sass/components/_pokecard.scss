@@ -1,0 +1,19 @@
+.pokecard {
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 7px 10px 10px -5px rgba($color: #000000, $alpha: 0.56);
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+    &__image {
+        width: 20rem;
+    }
+    &__data {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+}
